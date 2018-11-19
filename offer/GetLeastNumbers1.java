@@ -6,6 +6,7 @@ public class GetLeastNumbers1 {
 		ArrayList<Integer> result=GetLeastNumbers_Solution(input,8);
 		System.out.println(result.toString());
 	}
+	
 	public static  ArrayList<Integer> GetLeastNumbers_Solution(int [] input, int k){
 		
 		ArrayList<Integer> result=new ArrayList<Integer>();
