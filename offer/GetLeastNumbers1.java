@@ -58,22 +58,4 @@ public class GetLeastNumbers1 {
 		a[i]=a[j];
 		a[j]=t;
 	}
-//	@Test
-//	public void test(){
-//		int[] input={4,5,1,6,2,7,3,8};
-//		ArrayList<Integer> result=GetLeastNumbers_Solution(input,10);
-//		System.out.println(result.toString());
-//	}
-//	@Test
-//	public void test1(){
-//		int[] input={4,5,1,6,2,7,3,8};
-//		int v=partition(input,7, 7);
-////		v=partition(input, 4, 7);
-////		v=partition(input, 5, 7);
-////		v=partition(input, 6, 7);
-////		v=partition(input, 7, 7);
-//		System.out.println(v);
-////		for(int i=0;i<8;i++)
-////			System.out.println(input[i]);
-//	}
 }
