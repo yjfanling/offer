@@ -65,16 +65,4 @@ public class StreamMedian {
 			median=(double)min.peek();
 		return median;
 	}
-	@Test
-	public void Test(){
-		Double Median=0.0;
-		Integer[] input={5,2,3,4,1,6,7,0,8};
-		for(int i=0;i<input.length;i++)
-			{
-				Insert(input[i]);
-				Median=GetMedian();
-				System.out.println(Median);
-			}
-		
-	}
 }
