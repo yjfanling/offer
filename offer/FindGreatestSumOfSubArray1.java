@@ -13,10 +13,4 @@ public class FindGreatestSumOfSubArray1 {
 		}
 		return sum;
 	}
-	@Test
-	public void test(){
-		int[] array={1,-2,3,10,-4,7,2,-5};
-		int n=findGreatestSumOfSubArray(array);
-		System.out.println(n);
-	}
 }
