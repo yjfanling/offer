@@ -71,4 +71,5 @@ public class TreeNode {
 			return -1;
 		return Math.abs(left-right)>1?-1:1+Math.max(left, right);																																																													
 	}
+	
 }
