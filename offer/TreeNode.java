@@ -3,7 +3,6 @@ package offer;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import org.junit.Test;
 
 public class TreeNode {
 	int val = 0;
@@ -71,19 +70,5 @@ public class TreeNode {
 		if(right==-1)
 			return -1;
 		return Math.abs(left-right)>1?-1:1+Math.max(left, right);																																																													
-	}
-	@Test
-	public void test(){
-		TreeNode root=new TreeNode(1);
-		root.left.val=2;
-		root.right.val=3;
-		root.left.left.val=4;
-		root.left.right.val=5;
-		root.left.right.left.val=6;
-		if(IsBalanced_Solution1(root))
-			System.out.println("yes");
-		else
-			System.out.println("no");
-		
 	}
 }
