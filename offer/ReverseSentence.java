@@ -16,8 +16,8 @@ public class ReverseSentence {
 			string=reverse(string, start, end);
 			i=j;
 		}
-		String strresult=new String(string);
-		return strresult;
+		String result=new String(string);
+		return result;
 	}
 	private char[] reverse(char[] string,int start,int end) {
 		// TODO Auto-generated method stub
