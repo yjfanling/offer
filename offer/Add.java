@@ -21,4 +21,22 @@ public class Add {
 		int num2=34;
 		System.out.println(add(num1, num2));
 	}
+	public int removeElement(int[] nums, int val) {
+		if(nums == null || nums.length ==0) {
+			return 0;
+		}
+		int size = nums.length;
+		int left = 0;
+		int right = size - 1;
+		while (left < right) {
+			while(left < right && nums[left] != val) {
+				left++;
+			}
+			while(right > left && nums[right] == val) {
+				right--;
+			}
+			nums[left] = nums[right];
+		}
+		return left;
+	}
 }
